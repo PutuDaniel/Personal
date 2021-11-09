@@ -1,0 +1,20 @@
+.jumbotron {
+  background-color: hsl(217, 100%, 94%);
+  padding-top: 2rem;
+  height: 100vh;
+}
+
+#project {
+  background-color: hsl(217, 100%, 78%);
+}
+
+/* Media Query ketika di buka di mobile */
+@media (max-width: 576px) {
+  .btn-github {
+    width: 90%;
+  }
+
+  .navbar {
+    background-color: black;
+  }
+}
